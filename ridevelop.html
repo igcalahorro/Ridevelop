@@ -8,6 +8,8 @@
 
   <title>RIDEVELOP</title>
 
+  <link rel="icon" href="images/iconTB.png" type="image/icon type">
+
   <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
 
@@ -20,6 +22,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
     
 
@@ -46,6 +50,10 @@
         font-size: 3.5rem;
       }
     }
+
+    html {
+    scroll-behavior: smooth;
+    }
   </style>
 
 
@@ -70,7 +78,7 @@
               <a class="nav-link" href="#">Registro</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Contacto</a>
+              <a class="nav-link" href="#aboutus">Contacto</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -100,7 +108,7 @@
             <div class="carousel-caption text-start">
               <h1 > <span style="background-color: #198754; word-wrap: normal; border-radius: 10px;"></span> </h1>
               <p>Ayudando al ciclista cada día.</p>
-              <p><a class="btn btn-lg btn-success" href="#">Quienes somos</a></p>
+              <p><a class="btn btn-lg btn-success" href="#aboutus">Quienes somos</a></p>
             </div>
           </div>
         </div>
@@ -197,11 +205,18 @@
           <h2 class="featurette-heading">Navegador para bicis. <span class="text-muted">La manera más sencilla de moverte por la ciudad.</span></h2>
           <p class="lead">Muevete seguro y comodo usando nuestor navegador. Evita que tu camino se convierta en un etapa de montaña y encuentra facilmente donde aparcar tu bici con seguridad</p>
         </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-  
+
+        <div class="col-md-5"><iframe  width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://esmastergis.maps.arcgis.com/apps/webappviewer/index.html?id=4ec39573c77b406eb5c57a7a7d34cb3e" ><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe>
         </div>
+        
+        <!-- <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div> -->
+
       </div>
+      
   
       <hr class="featurette-divider">
   
@@ -210,10 +225,12 @@
           <h2 class="featurette-heading">Comercios. <span class="text-muted">Los de toda la vidad.</span></h2>
           <p class="lead">Posiciona tu comercio, accede a una comunidad de clientes que apuestan por la calidad y la cercania que ofrece un comercio de toda la vida.</p>
         </div>
-        <div class="col-md-5 order-md-1">
+        <div class="col-md-5 order-md-1"><iframe  width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://esmastergis.maps.arcgis.com/apps/mapviewer/index.html?layers=85d33ab03e1c44d49f642f90e2fa6c2c" ><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe>
+        </div>
+        <!-- <div class="col-md-5 order-md-1">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
   
-        </div>
+        </div> -->
       </div>
   
       <hr class="featurette-divider">
@@ -221,12 +238,37 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Mantenimiento. <span class="text-muted">Muevete con seguridad.</span></h2>
-          <p class="lead">No solo facilitar queremos facilitar tu camino. Queremos que todo este perfecto para tu seguridad y asi que la comunidad ciclista sea cada vez mayor. Con esta herramienta podras ayudarnos a mejorar la infraestructura para el beneficio de todos.</p>
+          <p class="lead">No solo queremos facilitar tu camino. Queremos que todo este perfecto para tu seguridad y asi que la comunidad ciclista sea cada vez mayor. Con esta herramienta podras ayudarnos a mejorar la infraestructura para el beneficio de todos.</p>
         </div>
         <div class="col-md-5">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
   
         </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id ='aboutus'>
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Conocenos. <span class="text-muted">Josemi e Ignacio. Málaga y Jaén</span></h2>
+          <p class="lead">Estudiantes del Máster de Esri en el curso 2021-2022.</p>
+        </div>
+        <div class="col-md-5 order-md-1 d-flex justify-content-around">
+
+          <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light"
+            data-type="VERTICAL" data-vanity="ignacio-calahorro" data-version="v1"><a class="badge-base__link LI-simple-link" 
+              href="https://es.linkedin.com/in/ignacio-calahorro?trk=profile-badge">Ignacio Calahorro</a>
+          </div>
+        
+          <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light"
+            data-type="VERTICAL" data-vanity="ignacio-calahorro" data-version="v1"><a class="badge-base__link LI-simple-link"
+              href="https://es.linkedin.com/in/ignacio-calahorro?trk=profile-badge">Ignacio Calahorro</a>
+          </div>
+        </div>
+        <!-- <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+  
+        </div> -->
       </div>
   
       <hr class="featurette-divider">
@@ -238,7 +280,7 @@
   
     <!-- FOOTER -->
     <footer class="container">
-      <p class="conocenos"><a href="#">Conocenos</a></p>
+      <!-- <p class="conocenos"><a href="aboutus">Conocenos</a></p> -->
       <p class="float-end"><a href="#">Back to top</a></p>
       <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>

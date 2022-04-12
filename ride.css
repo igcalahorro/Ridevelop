@@ -31,7 +31,8 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    /* height: 32rem; */
+    max-height: 500px;
   }
   
   
@@ -68,7 +69,18 @@ body {
     /* rtl:remove */
     letter-spacing: -.05rem;
   }
+  /* prueba para corregir la letra pequeña de los apartados jodida al meter el badge de linkedin */
+  /* .lead1{ */
+    /* font-weight: 300, !important; */
+    /* line-height: 1, !important; */
+    /* rtl:remove */
+    /* letter-spacing: -.05rem, !important; */
+
+  /* } */
   
+  /* .profile-badge--width-250{
+    width: 250px;
+  } */
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -79,6 +91,7 @@ body {
       margin-bottom: 1.25rem;
       font-size: 1.25rem;
       line-height: 1.4;
+      max-width: 2000px;
     }
   
     .featurette-heading {
@@ -92,3 +105,5 @@ body {
     }
   }
   
+  /* !important */
+
